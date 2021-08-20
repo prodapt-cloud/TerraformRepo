@@ -1,0 +1,12 @@
+steps:
+  - name: gcr.io/$PROJECT-ID/terraform
+    id: terraform-init
+    args:
+      - init
+  - name: gcr.io/$PROJECT-ID/terraform
+    id: terraform-plan
+    args:
+      - plan
+  - name: gcr.io/$PROJECT-ID/terraform
+    id: terraform-apply
+    args: ['apply','-auto-approve']
