@@ -1,4 +1,4 @@
-# Change Log
+# Change Log updated for sample
 
 All notable changes to this project will be documented in this file.
 
